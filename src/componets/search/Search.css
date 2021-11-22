@@ -1,0 +1,30 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    flex: 1;
+    border: 1px solid rgb(68, 69, 82);
+    padding: 10px;
+    font-size: 20px;
+
+    
+}
+
+.search button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(52, 60, 209);
+    cursor: pointer;
+    margin-left: 5px;
+    color: azure;
+    transition: all .5s;
+}
+
+.search button:hover{
+    transform: scale(1.03);
+    background-color: rgb(56, 62, 163);
+}

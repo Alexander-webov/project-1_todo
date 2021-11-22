@@ -1,0 +1,58 @@
+.postsItem{
+    font-size: 18px;
+    list-style: none;
+    border: 1px solid rgb(214, 170, 23);
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postsItem:hover{
+    background-color: rgba(255, 255, 255, 0.295);
+}
+
+.active{
+    color: brown;
+    font-weight: bold;
+}
+
+
+.postsItem button{
+    border: 1px solid rgb(214, 170, 23);
+    background:rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    font-size: 18px;
+    margin-right: 5px;
+    width: 50px;
+    color: rgb(54, 42, 165);
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.postsItem button.del{
+     color: brown;
+}
+
+.postsItem button:hover{
+     background:rgba(255, 255, 255, 0.6);
+}
+
+.done{
+ text-decoration:line-through;
+    color: rgba(255, 255, 255, 0.363);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.important{
+       color: brown;
+    font-size: 20px;
+}

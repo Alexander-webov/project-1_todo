@@ -1,0 +1,30 @@
+.addpost-form{
+    display: flex;
+    height: 50px;
+    
+}
+
+
+.addpost-form input{
+    flex: 1;
+    border: 1px solid rgb(68, 69, 82);
+    padding: 10px;
+    font-size: 20px;
+
+    
+}
+
+.addpost-form button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(168, 25, 61);
+    cursor: pointer;
+    margin-left: 5px;
+    color: azure;
+    transition: all .5s;
+}
+.addpost-form button:hover{
+    transform: scale(1.03);
+    background-color: rgb(17, 20, 77);
+}

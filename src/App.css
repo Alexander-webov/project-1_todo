@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(105, 1, 119, 0.151);
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+.App{
+    
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 50px 150px ;
+    background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
